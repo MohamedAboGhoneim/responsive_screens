@@ -1,4 +1,4 @@
-library responsive_screens;
+library responsive_screen_type;
 
 export 'src/device_screen_type.dart';
 export 'src/orientation_layout.dart';

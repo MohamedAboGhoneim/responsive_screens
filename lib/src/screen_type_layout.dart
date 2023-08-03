@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../responsive_screens.dart';
+import '../responsive_screen_type.dart';
 ///==========================================================
 /// CREATED BY MOHAMED GHONEIM 01/01/2022 TEL// +201064626369
 ///==========================================================
