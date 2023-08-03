@@ -1,7 +1,7 @@
 name: responsive_screens
 description: A Flutter package for responsive screens.
 version: 1.0.0
-homepage:
+homepage: https://github.com/MohamedGhoneem/responsive_screens
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
