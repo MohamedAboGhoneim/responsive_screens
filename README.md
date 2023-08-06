@@ -107,18 +107,11 @@ class _ResponsiveViewMobileState extends State<ResponsiveViewMobile> {
   }
 }
 ```
-## products_repo_interface.dart
-```dart
-import 'package:rxdart_bloc/base_model.dart';
 
-abstract interface class ProductsRepoInterface {
-  Future<BaseModel> getProducts();
-}
-```
 ## responsive_screens widgets
 
 ## ScreenTypeLayout
-**MultiBlocProvider** is a Flutter widget which provides a multi blocs to their children.
+**ScreenTypeLayout** is a Flutter widget you can provide a multi screen type to ((required) mobile - (optional) tablet - (optional) desktop) .
 
 ```dart
 ScreenTypeLayout(
