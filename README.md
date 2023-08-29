@@ -9,25 +9,24 @@
 
 ## Getting started
 
-Adding package #
-
-```yaml
-
-responsive_screens: ^1.0.0
-
-```
-
-Importing package #
+With `null-safety`
 
 ```dart
+      dependencies:
+          responsive_screen_type: ^1.0.2
+```
 
-import 'package:responsive_screens/responsive_screen_type.dart';
+Add the dependency to your project and start using **responsive_screen_type** #
 
+Importing the package #
+
+```dart
+import 'package:responsive_screen_type/responsive_screen_type.dart';
 ```
 
 ## Usage
 
-To use this plugin, add rxdart_bloc as a dependency in your pubspec.yaml file.
+To use this plugin, add responsive_screen_type as a dependency in your pubspec.yaml file.
 
 ## Example
 
@@ -50,7 +49,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Flutter responsive_screen',
+      title: 'Flutter responsive_screen_type',
       home:  ResponsiveView(),
     );
   }
@@ -93,7 +92,6 @@ class ResponsiveViewMobile extends StatefulWidget {
 class _ResponsiveViewMobileState extends State<ResponsiveViewMobile> {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement getBody
     return const Scaffold(
       backgroundColor: Colors.red,
       body: Center(
@@ -108,7 +106,7 @@ class _ResponsiveViewMobileState extends State<ResponsiveViewMobile> {
 }
 ```
 
-## responsive_screens widgets
+## responsive_screen_type widgets
 
 ## ScreenTypeLayout
 **ScreenTypeLayout** is a Flutter widget you can provide a multi screen type to ((required) mobile - (optional) tablet - (optional) desktop) .
@@ -120,4 +118,16 @@ tablet: ResponsiveViewTablet(),
 desktop: ResponsiveViewDesktop(),
 );
 ```
+
+
+## Improve
+
+Help me by reporting bugs, **submit new ideas** for features or anything else that you want to share.
+
+- Just [write an issue](https://github.com/MohamedGhoneem/responsive_screen_type/issues) on GitHub. ✏️
+- And don't forget to hit the **like button** for this package ✌️
+
+## More
+
+Check out my other useful packages on [pub.dev](https://pub.dev/publishers/ghoneem.com/packages)
 

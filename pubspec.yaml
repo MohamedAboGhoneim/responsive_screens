@@ -1,8 +1,7 @@
 name: responsive_screen_type
-description: A Flutter package for responsive screens.
-version: 1.0.0
+description: A new flutter utility to easily create responsive screens in your flutter application.
+version: 1.0.2
 homepage: https://github.com/MohamedGhoneem/responsive_screens
-
 environment:
   sdk: '>=3.0.6 <4.0.0'
   flutter: ">=1.17.0"
